@@ -1,0 +1,20 @@
+// For executing and setting path for c-prog
+1) First check path by typing path in cmd: PATH
+
+2) set path: setx PATH "%PATH%C:\Mingw...."
+
+3) Restart your windows pwershell/cmd and run gcc
+
+4) Then cd your folder and run your c-script. 
+
+5) gcc scriptname.c -o scriptname.exe
+
+6) scriptname.exe (or) .\scriptname.exe
+
+(This will work in cmd)
+ 
+
+// In second program(Adding)
+we used another cmd: gcc -Wall -save-temps demo2.c -o tyro
+
+This will print all the temps in one file and save it to name 'tyro'.
